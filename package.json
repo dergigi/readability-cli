@@ -25,5 +25,15 @@
     "pretty": "^2.0.0",
     "request": "^2.88.0",
     "turndown": "^5.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.*",
+    "eslint": ">=4.2",
+    "htmltidy2": "^0.3.0",
+    "js-beautify": "^1.5.5",
+    "jsdom": "^13.1",
+    "matcha": "^0.6.0",
+    "mocha": "^2.2.*",
+    "sinon": "^7.3.2"
   }
 }
