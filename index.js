@@ -1,2 +1,9 @@
 #!/usr/bin/env node
-console.log('Hello, world!');
+var program = require('commander');
+
+program
+.arguments('<url>')
+.action(function(url) {
+  console.log('url: %s', url);
+})
+.parse(process.argv);
