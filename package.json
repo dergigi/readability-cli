@@ -1,0 +1,11 @@
+{
+  "name": "readability-cli",
+  "version": "0.0.1",
+  "description": "A command-line tool for running Firefox's readability script on a web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gigi",
+  "license": "MIT"
+}
