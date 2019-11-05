@@ -3,7 +3,7 @@ var debug = false;
 var path = require("path");
 var fs = require("fs");
 var jsdom = require("jsdom").jsdom;
-var prettyPrint = require("pretty").prettyPrint;
+var html = require("html");
 var serializeDocument = require("jsdom").serializeDocument;
 var http = require("http");
 var urlparse = require("url").parse;
@@ -90,7 +90,7 @@ function runReadability(source) {
     return;
   }
 
-  var prettyHTML = prettyPrint(result.content)
+  var prettyHTML = html.prettyPrint(result.content, {indent_size: 2});
   console.log(prettyHTML)
   return prettyHTML;
 }
