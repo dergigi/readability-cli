@@ -48,7 +48,6 @@ function fetchSource(url, callbackFn) {
 }
 
 function sanitizeSource(html, callbackFn) {
-  // htmltidy(serializeDocument(jsdom(html)), {
   htmltidy(html, {
     "indent": true,
     "indent-spaces": 4,
