@@ -6,6 +6,7 @@ var jsdom = require("jsdom").jsdom;
 var html = require("html");
 var serializeDocument = require("jsdom").serializeDocument;
 var http = require("http");
+var https = require("https");
 var urlparse = require("url").parse;
 var htmltidy = require("htmltidy2").tidy;
 
@@ -23,7 +24,7 @@ function fetchSource(url, callbackFn) {
   }
   var client = http;
   if (url.indexOf("https") == 0) {
-    client = require("https");
+    client = https;
   }
   var options = urlparse(url);
   options.headers = {"User-Agent": FFX_UA};
