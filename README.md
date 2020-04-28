@@ -54,3 +54,7 @@ sed -i -E -- 's/^>(.+) --- (.+)$/\1\n>\n> <cite>\2<\/cite>/g' markdown.md
 # Remove repeated blank lines
 cat -s markdown.md > markdown-clean.md
 ```
+
+---
+
+Made with ❤️ by [@dergigi](https://github.com/dergigi/). Happy about any contributions. If you can't contribute but have some satoshis to spare, feel free to [throw a taco](https://tippin.me/@dergigi) in my general direction! [🌮⚡️](https://tippin.me/@dergigi)
