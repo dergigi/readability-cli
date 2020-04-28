@@ -4,7 +4,15 @@ A node-js wrapper around Mozilla's [Readability.js](https://github.com/mozilla/r
 
 Output is [pretty](https://www.npmjs.com/package/pretty) HTML, use [pandoc](https://pandoc.org/) to convert to other formats.
 
-### Example Usage
+### Usage
+
+```
+readability-cli https://www.activism.net/cypherpunk/manifesto.html
+```
+
+### Advanced Usage
+
+The following example scrapes an article from Medium and converts it to markdown (including some Medium-specific cleanup):
 
 ```
 # Get clean HTML
