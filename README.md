@@ -21,7 +21,6 @@ git clone https://github.com/dergigi/readability-cli.git
 cd readability-cli
 npm install
 npm link
-yarn link
 ```
 
 ### Usage
