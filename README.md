@@ -26,7 +26,10 @@ readability-cli https://www.activism.net/cypherpunk/manifesto.html
 
 ### Advanced Usage
 
-The following example scrapes an article from Medium and converts it to markdown (including some Medium-specific cleanup):
+The following example scrapes an article from Medium and converts it to markdown
+(including some Medium-specific cleanup). It's by no means perfect (some manual
+cleanup might still be required) but it's better than doing the whole
+html-to-markdown conversion manually.
 
 ```
 # Get clean HTML
