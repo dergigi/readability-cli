@@ -4,6 +4,10 @@ A node-js wrapper around Mozilla's [Readability.js](https://github.com/mozilla/r
 
 Output is [pretty](https://www.npmjs.com/package/pretty) HTML, use [pandoc](https://pandoc.org/) to convert to other formats.
 
+### Requirements
+
+* [Node.js](https://nodejs.org/en/)
+
 ### Installation
 
 ```
