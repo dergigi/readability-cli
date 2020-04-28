@@ -1,6 +1,6 @@
 {
   "name": "readability-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A command-line tool for running Firefox's readability script on a web page",
   "main": "index.js",
   "scripts": {
