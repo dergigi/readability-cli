@@ -10,30 +10,30 @@
   "author": "Gigi",
   "license": "MIT",
   "dependencies": {
-    "commander": "^4.0.0",
+    "commander": "^5.1.0",
     "beautify": "0.0.8",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "chai": "^4.2.0",
-    "ejs": "^2.6.1",
+    "ejs": "^3.1.2",
     "eslint": "^5.9.0",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "htmltidy2": "^0.3.0",
     "js-beautify": "^1.8.8",
     "jsdom": "^13.0.0",
     "matcha": "^0.7.0",
     "mocha": "^5.2.0",
     "pretty": "^2.0.0",
-    "request": "^2.88.0",
-    "turndown": "^5.0.1"
+    "request": "^2.88.2",
+    "turndown": "^6.0.0"
   },
   "devDependencies": {
-    "chai": "^2.1.*",
-    "eslint": ">=4.2",
+    "chai": "^4.2.*",
+    "eslint": ">=6.8",
     "htmltidy2": "^0.3.0",
-    "js-beautify": "^1.5.5",
-    "jsdom": "^13.1",
-    "matcha": "^0.6.0",
-    "mocha": "^2.2.*",
-    "sinon": "^7.3.2"
+    "js-beautify": "^1.11.0",
+    "jsdom": "^16.2",
+    "matcha": "^0.7.0",
+    "mocha": "^7.1.*",
+    "sinon": "^9.0.2"
   }
 }
