@@ -56,4 +56,4 @@ cat -s markdown.md > markdown-clean.md
 
 ---
 
-Made with ❤️ by [@dergigi](https://github.com/dergigi/). Happy about any contributions. If you can't contribute but have some satoshis to spare, feel free to [throw a taco](https://tippin.me/@dergigi) in my general direction! [🌮⚡️](https://tippin.me/@dergigi)
+Made with ❤️ by [@dergigi](https://github.com/dergigi/). Happy about any contributions. If you can't contribute but have some satoshis to spare, feel free to [throw a taco](https://dergigi.com/support) in my general direction! [🌮⚡️](https://tippin.me/@dergigi)
