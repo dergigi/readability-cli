@@ -10,6 +10,13 @@ A node-js wrapper around Mozilla's [Readability.js](https://github.com/mozilla/r
 
 Output is [pretty](https://www.npmjs.com/package/pretty) HTML, use [pandoc](https://pandoc.org/) to convert to other formats.
 
+---
+
+> :warning: Someone had the same idea and published a proper [readability-cli npm package](https://www.npmjs.com/package/readability-cli). 
+> Source on GitLab: https://gitlab.com/gardenappl/readability-cli
+
+---
+
 ### Requirements
 
 * [Node.js](https://nodejs.org/en/)
